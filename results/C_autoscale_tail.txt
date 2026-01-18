@@ -1,0 +1,30 @@
+[*] autoscaler started Sun Jan 18 17:15:42 WET 2026
+17:15:42 backends=1 total=0 429=0 ratio429=0%
+[+] scaling OUT -> api2 Sun Jan 18 17:15:42 WET 2026
+17:15:47 backends=2 total=0 429=0 ratio429=0%
+[+] scaling OUT -> api3 Sun Jan 18 17:15:48 WET 2026
+17:15:53 backends=3 total=0 429=0 ratio429=0%
+[+] scaling OUT -> api4 Sun Jan 18 17:15:53 WET 2026
+17:15:58 backends=4 total=0 429=0 ratio429=0%
+[+] scaling OUT -> api5 Sun Jan 18 17:15:58 WET 2026
+17:16:04 backends=5 total=0 429=0 ratio429=0%
+17:16:09 backends=5 total=2032 429=2016 ratio429=99.21%
+17:16:14 backends=5 total=2002 429=1990 ratio429=99.40%
+17:16:19 backends=5 total=2006 429=1995 ratio429=99.45%
+17:16:24 backends=5 total=2044 429=2031 ratio429=99.36%
+17:16:29 backends=5 total=2115 429=2102 ratio429=99.39%
+17:16:34 backends=5 total=2005 429=1991 ratio429=99.30%
+17:16:39 backends=5 total=2008 429=1994 ratio429=99.30%
+17:16:44 backends=5 total=2093 429=2075 ratio429=99.14%
+17:16:49 backends=5 total=2002 429=1983 ratio429=99.05%
+17:16:55 backends=5 total=2025 429=2003 ratio429=98.91%
+17:17:00 backends=5 total=2016 429=1982 ratio429=98.31%
+17:17:05 backends=5 total=2016 429=1998 ratio429=99.11%
+17:17:10 backends=5 total=2000 429=1984 ratio429=99.20%
+17:17:15 backends=5 total=2000 429=1984 ratio429=99.20%
+17:17:20 backends=5 total=2000 429=1984 ratio429=99.20%
+17:17:25 backends=5 total=2000 429=1984 ratio429=99.20%
+17:17:30 backends=5 total=2000 429=1984 ratio429=99.20%
+17:17:35 backends=5 total=2000 429=1984 ratio429=99.20%
+17:17:40 backends=5 total=2000 429=1984 ratio429=99.20%
+17:17:45 backends=5 total=2000 429=1984 ratio429=99.20%

@@ -1,0 +1,25 @@
+services:
+  lb:
+    image: nginx:stable
+    container_name: lb
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/lb.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./logs:/var/log/nginx
+    depends_on:
+      - api1
+    networks:
+      - labnet
+
+  # começa com 1 réplica (api1). O "autoscaling" vai criar api2, api3... via script
+  api1:
+    image: nginx:stable
+    container_name: api1
+    networks:
+      - labnet
+
+networks:
+  labnet:
+    driver: bridge

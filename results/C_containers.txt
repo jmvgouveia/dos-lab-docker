@@ -1,0 +1,7 @@
+NAMES                                                                    STATUS
+api5                                                                     Up About a minute
+api4                                                                     Up About a minute
+api3                                                                     Up About a minute
+api2                                                                     Up 2 minutes
+lb                                                                       Up About an hour
+api1                                                                     Up About an hour
